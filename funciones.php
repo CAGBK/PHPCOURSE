@@ -3,7 +3,7 @@
 //Esto es una función en php
 function functionName()
 {
-    echo"Hola soy una función.";
+    echo"Hola soy una función.<br>";
 
 }
 
@@ -11,15 +11,16 @@ functionName();
 
 
 //funciones con paramentros 
-$adios = "adios bro "; 
+$adios = "adios bro <br>"; 
 
 function despedida( $adios){
 
     echo $adios;
 }
 
-despedida("chao");
+despedida("chao<br>");
 
+//Funciones con retorno 
 function retornar ($retorno){
 
     return $retorno;
